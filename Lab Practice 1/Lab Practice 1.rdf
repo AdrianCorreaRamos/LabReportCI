@@ -1,0 +1,232 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Book rdf:about="urn:isbn:978-1-4419-0033-3%20978-1-4419-0034-0">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Boston, MA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer US</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yarlagadda</foaf:surname>
+                        <foaf:givenName>R. K. Rao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_111"/>
+        <dc:title>Analog and Digital Signals and Systems</dc:title>
+        <dc:date>2010</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/978-1-4419-0034-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-11 06:51:46</dcterms:dateSubmitted>
+        <dc:description>DOI: 10.1007/978-1-4419-0034-0</dc:description>
+        <dc:identifier>ISBN 978-1-4419-0033-3 978-1-4419-0034-0</dc:identifier>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_111">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/111/Yarlagadda - 2010 - Analog and Digital Signals and Systems.pdf"/>
+        <dc:title>Yarlagadda - 2010 - Analog and Digital Signals and Systems.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://cloudflare-ipfs.com/ipfs/bafykbzacecqlfzyuytfdnjcnxjdw3yqqcd4cl3weookprzzp5lmipkeuc6c76?filename=R.%20K.%20Rao%20Yarlagadda%20%28auth.%29%20-%20Analog%20and%20digital%20signals%20and%20systems-Springer%20US%20%282010%29.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-11 06:51:40</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-0-471-38393-2%20978-0-470-05011-8">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 978-0-471-38393-2 978-0-470-05011-8</dc:identifier>
+                <dc:title>Wiley Encyclopedia of Computer Science and Engineering</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>Wiley</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wah</foaf:surname>
+                        <foaf:givenName>Benjamin W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Walden</foaf:surname>
+                        <foaf:givenName>R. H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Analog‐to‐Digital Conversion in the Early Twenty‐First Century</dc:title>
+        <dcterms:abstract>Abstract
+            
+              Analog‐to‐digital converters (ADCs) continue to be important components of signal‐processing systems, such as those for mobile communications, software radio, radar, satellite communications, and others. This article revisits the state‐of‐the‐art of ADCs and includes recent data on experimental converters and commercially available parts. Converter performances have improved significantly since previous surveys were published (1999–2005). Specifically, aperture uncertainty (jitter) and power dissipation have both decreased substantially during the early 2000s. The lowest jitter value has fallen from approximately 1 picosecond in 1999 to &lt; 100 femtoseconds for the very best of current ADCs. In addition, the lowest values for the IEEE Figure of Merit (which is proportional to the product of jitter and power dissipation) have also decreased by an order of magnitude. For converters that operate at multi‐GSPS rates, the speed of the fastest ADC IC device technologies e.g., InP, GaAs, is the main limitation to performance; as measured by device transit‐time frequency, f
+              T
+              , has roughly tripled since 1999. ADC architectures used in high‐performance broadband circuits include pipelined (successive approximation, multistage flash) and parallel (time‐interleaved, filter‐bank) with the former leading to lower power operation and the latter being applied to high‐sample rate converters. Bandpass ADCs based on delta‐sigma modulation are being applied to narrow band applications with ever increasing center frequencies. CMOS has become a mainstream ADC IC technology because
+              
+              it enables designs with low power dissipation and
+              
+              it allows for significant amounts of digital signal‐processing to be included on‐chip. DSP enables correction of conversion errors, improved channel matching in parallel structures, and provides filtering required for delta‐sigma converters. Finally, a performance projection based on a trend in aperture jitter predicts 25 fs in approximately 10 years, which would imply performance of 12 ENOB at nearly 1‐GHz bandwidth.</dcterms:abstract>
+        <dc:date>2008-09-15</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://onlinelibrary.wiley.com/doi/10.1002/9780470050118.ecse014</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-11 07:00:11</dcterms:dateSubmitted>
+        <dc:description>DOI: 10.1002/9780470050118.ecse014</dc:description>
+        <bib:pages>1-14</bib:pages>
+        <prism:edition>1</prism:edition>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_114">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/114/TFE_VeramendiMegara.pdf"/>
+        <dc:title>TFE_VeramendiMegara.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academica-e.unavarra.es/xmlui/bitstream/handle/2454/22439/TFE_VeramendiMegara.pdf?sequence=1&amp;isAllowed=y</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-11 07:10:13</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_116">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Por</foaf:surname>
+                        <foaf:givenName>Emiel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van Kooten</foaf:surname>
+                        <foaf:givenName>Maaike</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sarkovic</foaf:surname>
+                        <foaf:givenName>Vanja</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_115"/>
+        <dc:title>Nyquist–Shannon sampling theorem</dc:title>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_115">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/115/Por et al. - Nyquist–Shannon sampling theorem.pdf"/>
+        <dc:title>Por et al. - Nyquist–Shannon sampling theorem.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://home.strw.leidenuniv.nl/~por/AOT2019/docs/AOT_2019_Ex13_NyquistTheorem.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-11 07:12:46</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_118">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hasegawa-Johnson</foaf:surname>
+                        <foaf:givenName>Mark</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_117"/>
+        <dc:title>Lecture 6: Sampling and Aliasing</dc:title>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_117">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/117/Hasegawa-Johnson - Lecture 6 Sampling and Aliasing.pdf"/>
+        <dc:title>Hasegawa-Johnson - Lecture 6 Sampling and Aliasing.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://courses.engr.illinois.edu/ece401/fa2021/lectures/lec06.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-11 07:14:56</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://wiki.analog.com/university/courses/electronics/text/chapter-20">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_120"/>
+        <dc:title>Chapter 20: Analog to Digital Conversion [Analog Devices Wiki]</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://wiki.analog.com/university/courses/electronics/text/chapter-20</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-11 07:15:44</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_120">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/120/chapter-20.html"/>
+        <dc:title>Chapter 20: Analog to Digital Conversion [Analog Devices Wiki]</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://wiki.analog.com/university/courses/electronics/text/chapter-20</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-11 07:16:01</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>
