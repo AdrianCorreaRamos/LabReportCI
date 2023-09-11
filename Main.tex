@@ -1,0 +1,240 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Maquetado general, no modificar si no es necesario
+\documentclass[twoside]{article}
+
+\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+%\usepackage[]{amssymb}
+\usepackage[english, spanish, mexico]{babel}
+\selectlanguage{spanish}
+
+%\usepackage[round,authoryear,semicolon]{natbib}
+\usepackage[]{natbib}
+\bibliographystyle{abbrvnat}
+\setcitestyle{kluwer}
+%\usepackage[nottoc]{tocbibind}
+%plainnat, abbrvnat
+%\citet{} 	Textual citation
+%\citep{} 	Parenthetical citation
+%\citet*{} 	Same as \citet but if there are several authors, all names are printed
+%\citep*{} 	The same as \citep but if there are several authors, all names are printed
+%\citeauthor{} 	Prints only the name of the authors(s)
+%\citeyear{} 	Prints only the year of the publication. 
+
+\addto\captionsspanish{
+\renewcommand\bibname{Referencias}
+}
+
+%\usepackage{apacite}
+
+% uso con biber
+%\usepackage[backend=biber,style=authoryear,sorting=ynt]{biblatex}
+%\bibliography{biblio}
+
+%\usepackage{blindtext}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    citecolor=blue,      
+    urlcolor=blue,
+    pdftitle={Reporte ICO},
+    %pdfpagemode=FullScreen,
+}
+
+\usepackage{layout}
+
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\usepackage[tableposition = top]{caption}
+\captionsetup{font={small,it}, labelfont={small,it}}
+
+
+\usepackage{geometry}
+\geometry{
+ letterpaper,
+ left=25mm,
+ top=25mm,
+ right=25mm,
+ bottom=25mm,
+ %asymmetric
+}
+
+\usepackage{setspace}
+\onehalfspace
+\setlength{\parskip}{6pt}
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0pt}
+\setlist[enumerate]{noitemsep, topsep=0pt}
+%\doublespacing
+%\usepackage[fontsize=13]{scrextend}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancypagestyle{plain}{}
+\fancyhf{}
+\fancyhead[LO]{\includegraphics[width=1.2cm]{logo}}
+\fancyhead[CO]{\hspace{-5cm}\vspace{0.2cm}\large{Universidad Aut\'onoma del Estado de M\'exico}}
+\fancyhead[RE]{\vspace{0.2cm}\large{Centro Universitario UAEM Atlacomulco}}
+\fancyfoot[RE,LO]{P\'ag. \thepage}
+\fancyfoot[LE]{\hspace{0cm} Computing in Industry}
+\fancyfoot[RO]{Ingenier\'ia en Computaci\'on}
+\renewcommand{\headrulewidth}{0.6pt}
+\renewcommand{\footrulewidth}{0.6pt}
+\setlength{\headheight}{37pt}
+\setlength{\footskip}{20pt}
+
+
+\providecommand{\keywords}[1]
+{
+%  \vspace{0.5cm}
+  \noindent
+  \small	
+  \textbf{\textit{Keywords: }} #1
+}
+
+\providecommand{\keywordssp}[1]
+{
+ % \vspace{0.5cm}
+  \noindent
+  \small	
+  \textbf{\textit{Palabras clave: }} #1
+}
+
+\usepackage{authblk}
+\renewcommand*{\Authsep}{, }
+\renewcommand*{\Authand}{ y }
+\renewcommand*{\Authands}{ y }
+\renewcommand*{\Authfont}{\normalsize\bfseries}    
+\renewcommand*{\Affilfont}{\normalsize\normalfont}
+\setlength{\affilsep}{0.2em}
+\usepackage{titling}
+%\vspace{0.5em}
+%\preauthor{\begin{center}\fontsize{14bp}{14bp}\selectfont}
+%\postauthor{\par\end{center}\vspace{1em}}
+\predate{\centering\normalsize\normalfont}
+\postdate{\par\centering\vspace{-0.2em}}
+\pretitle{\centering}
+\posttitle{\par\centering\vspace{-0.2em}}
+
+% Maquetado general, no modificar si no es necesario
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Editar con los datos de identificación
+\newsavebox\affbox
+
+% Título del Trabajo
+\title{
+	\Large\bfseries{Práctica 1\\}
+	\normalfont{Reporte de práctica en \LaTeX, escribir el título de la práctica}
+	}
+% Datos del (los) autor (es), colocar en orden alfabético según apellidos
+\author{Alejandro Casiano Angeles}
+\author{Esmeralda Contreras Piña}
+\author{\authorcr Adrian Correa Ramos}
+\author{Maria del Carmen Huitrón Domingo}
+
+\affil{Centro Universitario Atlacomulco, Universidad Autónoma del Estado de México
+\\Carr. Toluca Atlacomulco Km. 60, Atlacomulco, Estado de México, C.P. 50450, México}
+%\affil[2]{Otra institución}
+
+\date{Due Date: Tuesday September 12, 2023}
+
+
+
+% *******************************************
+% Insertar paquetes adicionales aquí
+%\usepackage[opciones]{paquete}
+
+
+
+
+% Insertar paquetes adicionales aquí
+% ********************************************
+
+\begin{document}
+
+\maketitle
+
+\selectlanguage{english}
+\begin{abstract}
+English translation of the document summary. 200 to 250 words. 
+{\keywords{one, two, three, four, five words in English}}
+\end{abstract}
+\selectlanguage{spanish}
+
+
+\begin{abstract}
+Resumen del documento, resaltando el contenido de todas las partes: Introducción, Método, Resultados y Conclusiones. Dar énfasis en los hallazgos identificados que estén respaldados por los resultados y en las conclusiones. No incluir abreviaturas ni referencias. La extensión del resumen es de 200 a 250 palabras. 
+{\keywordssp{una, dos, tres cuatro, hasta cinco palabras clave}}
+\end{abstract}
+
+
+
+%\begin{titlepage}
+%\maketitle
+%\end{titlepage}
+
+% Maquetado general, no modificar si no es necesario
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% ****************************************************
+% Comienza sección editable recomendada
+
+\section{Introduction}
+\label{sec:intro}
+
+
+\section{Theoretical Framework}
+\label{sec:theoretical}
+
+
+\section{Method}
+\label{sec:method}
+
+
+
+\subsection{Materials and Equipment}
+\label{sec:mat_and_equip}
+
+
+\subsection{Experimental Design}
+\label{sec:exp_design}
+
+
+\subsection{Procedure}
+\label{sec:procedure}
+
+
+
+\section{Results \& Discussion}
+\label{sec:res_and_dis}
+
+
+
+\section{Conclusions}
+\label{sec:conclusions}
+
+
+
+% ****************************************************
+% Finaliza sección editable recomendada
+
+
+% con natbib y bibtex
+%\bibliography{biblio}
+
+% uso con biber
+%\printbibliography[heading=bibintoc, title=Referencias]
+
+%\pagenumbering{arabic}
+%\setcounter{page}{5}
+%\layout
+\end{document}
